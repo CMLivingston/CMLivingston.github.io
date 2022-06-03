@@ -145,7 +145,7 @@ function App() {
           <VirtualSearchBox />
           <Configure hitsPerPage={8} />
 
-        {/* Search filters */}
+          {/* Search filters */}
           <div className="left-panel">
             <h3>Browse and filter</h3>
             <ClearRefinements />
@@ -172,7 +172,7 @@ function App() {
             <RefinementList attribute="brand" showMore showMoreLimit={30} />
           </div>
 
-        {/* Search input and results */}
+          {/* Search input and results */}
           <div className="right-panel">
             { checkAutocomplete 
               ? 
