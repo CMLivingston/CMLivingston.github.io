@@ -70,7 +70,6 @@ function App() {
       }, 400);
     }, [searchState]);
 
-
     const onSubmit = React.useCallback(({ state }) => {
       setSearchState((searchState) => ({
         ...searchState,
@@ -101,7 +100,6 @@ function App() {
           };
         },
       });
-
       
       const querySuggestionsPlugin = createQuerySuggestionsPlugin({
         searchClient,
